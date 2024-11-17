@@ -11,9 +11,13 @@
 #define _GNU_SOURCE
 #include <netinet/tcp.h>
 #else
+#ifdef __FreeBSD__
+#include <netinet/tcp.h>
+#else
 extern "C" {
   #include <linux/tcp.h>
 }
+#endif
 #endif
 
 #include <netinet/in.h>
