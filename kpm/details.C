@@ -13,6 +13,7 @@
 #else
 #ifdef __FreeBSD__
 #include <netinet/tcp.h>
+#include <sys/socket.h>
 #else
 extern "C" {
   #include <linux/tcp.h>
