@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Date: 1997-10-26 19:58:36+0100\n"
 "From: Philipp Reisner <e9525415@student.tuwien.ac.at>\n"
-"Content-Type: text/plain; charset=iso8859-1\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
 "Xgettext-Options: -C -ktranslate\n"
 "Files: webtree.cpp dlg/tdlg_coltab.cpp dlg/tdlg_fonttab.cpp dlg/tdlg_htmltab.cpp dlg/tdlg_httptab.cpp dlg/tdlg_inextab.cpp dlg/tdlg_info_d.cpp dlg/tdlg_viewtab.cpp view/wtview.cpp\n"
 

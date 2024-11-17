@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Sári Gábor <saga@mail.externet.hu>\n"
 "Language-Team: HUngarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: ENCODING\n"
 ""
 
