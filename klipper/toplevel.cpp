@@ -12,6 +12,7 @@
 #include "toplevel.h"
 #include <mykapp.h>
 #include <kwm.h>
+#include <cstdlib>
 #include <qcursor.h>
 #include <qintdict.h>
 #include <qpainter.h>

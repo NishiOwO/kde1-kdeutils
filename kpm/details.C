@@ -3,7 +3,9 @@
 // This program is free software. See the file COPYING for details.
 // Author: Mattias Engdegård, 1997
 
+#ifndef __NetBSD__
 #include <features.h>
+#endif
 #if (defined(__GLIBC__) && (__GLIBC__ > 1))
 // glibc 2 (aka linux libc 6) doesn't use linux kernel headers
 #define _GNU_SOURCE

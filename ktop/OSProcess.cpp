@@ -246,7 +246,7 @@ OSProcess::read(const void* info)
 	return (true);
 }
 
-#elif __FreeBSD__
+#elif __FreeBSD__ && 0
 /* Port to FreeBSD by Hans Petter Bieker <zerium@webindex.no>.
  *
  * Copyright 1999 Hans Petter Bieker <zerium@webindex.no>.
@@ -334,7 +334,7 @@ OSProcess::OSProcess(int pid_)
 }
 
 bool
-OSProcess::read(const char* info)
+OSProcess::read(const void* info)
 {
 }
 #endif

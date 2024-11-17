@@ -376,3 +376,7 @@ void srandom(unsigned int seed);
 
 /* Missing in our config.h, google says it usually was 4096 */
 #define KDEMAXPATHLEN  4096
+
+#ifdef __NetBSD__
+#define HAVE_FUNC_ISINF
+#endif
