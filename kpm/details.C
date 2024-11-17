@@ -3,7 +3,7 @@
 // This program is free software. See the file COPYING for details.
 // Author: Mattias Engdegård, 1997
 
-#ifndef __NetBSD__
+#ifndef __FreeBSD__
 #include <features.h>
 #endif
 #if (defined(__GLIBC__) && (__GLIBC__ > 1))
